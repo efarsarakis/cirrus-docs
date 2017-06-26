@@ -30,7 +30,6 @@ Useful terminology
 This is a list of terminology used throughout this guide and its
 meaning.
 
-kAU
-    Cirrus CPU time is measured in kAU. Each job you run on the service
-    consumes kAUs from your budget. You can find out more about kAUs and
-    how to track your usage in the :doc:`resource_management`
+CPUh
+    Cirrus CPU time is measured in CPUh. Each job you run on the service
+    consumes CPUh from your budget. Each node has 36 cores so 1 node for 1 hour is 36 CPUh.
